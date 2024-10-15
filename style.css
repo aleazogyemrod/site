@@ -5,22 +5,27 @@ body {
     header {
         display: flex;
         width: 100%;
+        justify-content: center
+        ;
     }
 
     .nav-lista {
         display: flex;
         list-style: none;
-color: white;
-font-size: 40px;
-text-transform: uppercase;
-justify-content: center;
-align-items: center;
-gap: 28px;
+        color: white;
+        font-size: 40px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
     }
 
 
-  
-    .nav-item}
-    cursor: pointer;
-    background-color: rgb(172, 234, 250);
-    color: black;
+
+    .nav-item:hover {
+        cursor: pointer;
+        background-color: rgb(172, 234, 250);
+        color: black;
+    }
+
+
